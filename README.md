@@ -1,2 +1,2 @@
 # julian-men.github.io
-#https://julian-men.github.io/lab1/index.html
+#https://julian-men.github.io/lab1/
