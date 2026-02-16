@@ -1,0 +1,77 @@
+/* Default Elements */
+body {
+    background-image: url("https://imgs.search.brave.com/gp4HsffEMmMcybl3pZPKsOqrBURLvUdUy-nZDVPwqYw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA2LzIyLzgyLzM0/LzM2MF9GXzYyMjgy/MzQ5Ml9veThqMVRU/eEJrRTFIWmdWbml2/MFJQeXByQ29VZlpC/NS5wbmc");
+}
+
+/* Classes */
+.fontFamily {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+.fontBold {
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.fontSizeLarge {
+    font-size: large;
+}
+
+.fontSizeXL {
+    font-size: x-large;
+}
+
+.opaque {
+    background-color: black;    
+    opacity: 0.5;
+    padding: 20px;
+}
+
+.fontColor {
+    color: white;
+}
+
+/* IDs */
+
+#guessBtn {
+    border: 2px solid white; 
+    background-color: black;
+    color: #22ff00;
+}
+
+#userGuess {
+    border: 2px solid white;
+}
+
+#userGuesses {
+    background-color: blue;
+    border: 2px solid black;
+}
+
+#displayHighLow {
+    background-color: wheat;
+    border: 2px solid black;
+}
+
+#userGuess{
+    background-color: red;
+    border: 2px solid black;
+}
+
+#h1{
+    background-color: green;
+    border: 2px solid black;
+}
+
+#hw{
+    background-color: green;
+    border: 2px solid black;
+}
+
+#stuff{
+    background-color: green;
+    border: 2px solid black;
+}

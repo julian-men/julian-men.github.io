@@ -1,0 +1,39 @@
+<!DOCTYPE <!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Guess the Number Game</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="js/script.js" defer></script>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <header class="fontBold fontFamily center">
+            <h1 id = "h1">Guess the Number!</h1>
+        </header>
+    
+        <h3 class="fontFamily center fontSizeXL">Guess a number between 1 and 99 in seven attempts!</h3>
+
+        <div class="opaque">
+            <div class="fontFamily center fontSizeLarge fontColor">
+                Guess:
+                <!-- creates a textbox -->
+                <input  id="userGuess" type="text" size="5">
+                <button id="guessBtn" class="fontSizeLarge">Guess!</button>
+            
+                <br>
+
+                <div id="displayHighLow"></div>
+            
+                <br>
+            
+                Previous Guesses:
+                <div id="userGuesses">
+                </div>
+            </div>
+        </div>
+    
+
+    </body>
+</html>
